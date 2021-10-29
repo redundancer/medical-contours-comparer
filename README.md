@@ -29,7 +29,7 @@ The structure of the root folder must be
 # Execute
 To execute the script run
 ```
-python3 compare_contours.py --root_dir path/to/root_dir --gt substring1 substring2 --pre substring3 substring4
+python3 compare_contours.py --root_dir path/to/root_dir --gt substring1 substring2 --pred substring3 substring4
 ```
 
 In case that each two contours are of different shape, the 'groud truth' contour will be resampled to the 'predicted' contour. This project obviously was created to compare manually and artificially created 3D medical contours.
